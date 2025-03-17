@@ -28,6 +28,9 @@ public class Driver extends Application {
         
         Lab0 l1 = new Lab0();
         tab1.setContent(l1);
+        
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        tab2.setContent(linkedList);
 
         Scene scene = new Scene(tabPane, 500, 500);
 
